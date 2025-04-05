@@ -1,0 +1,32 @@
+#gameboard{
+    display: flex;
+    border: 5px solid #EA7300;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex: 1;
+}
+
+.column{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 50px;
+    height: 50px;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
